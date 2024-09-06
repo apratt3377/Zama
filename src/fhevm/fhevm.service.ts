@@ -43,7 +43,7 @@ export class FhevmService {
     }
 
     async mintAlice(contract) {
-        console.log('Minting 100')
+        console.log('Minting 10000')
         const transaction = await contract.mint(10000);
         const t1 = await transaction.wait();
   
